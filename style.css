@@ -120,20 +120,28 @@ margin-top: 250px;
    margin-top:-400px ;
    padding: 10px;
 }
-.sobremi1{
+.about-me-img1{
     width: 400px;
     height: auto;
     float: left;
+    margin:40px ;
+    border: black;
+    border-width: 20px;
     
 }
-.lorem1{
-    margin: 200px;
+.about-me-text1{
+    margin-top: 50px;
     
 }
-.sobremi2{
+.about-me-text2{
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.about-me-img2{
     width: 500px;
     height: auto;
     float: right;
+    margin: 40px;
 }
 .form{
     margin: 50px;
@@ -142,3 +150,33 @@ margin-top: 250px;
     text-decoration: underline;
 }
 
+@media (max-width:576px){
+    .page-content{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        
+    }
+.card .card-body .card-image-top{
+    height: 10px;
+    width: auto;
+}
+.bodyb (max-width: 580px;)
+
+.contact-info{
+    margin: ;
+}
+}
+
+@media (max-width:768){
+    .page-content{
+        flex-direction: column;
+       }
+.card .card-body .card-image-top{
+    height: 150px;
+    width: auto
+    margin-left:  20px;
+    margin-right: 20px;
+}
+    .bodyb (max-width: 580px;)
+}
