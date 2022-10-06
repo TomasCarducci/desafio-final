@@ -153,30 +153,29 @@ margin-top: 250px;
 @media (max-width:576px){
     .page-content{
         flex-direction: column;
+
         justify-content: center;
         display: flex;
-        
+        align-items: center;   
     }
 .card .card-body .card-image-top{
     height: 10px;
     width: auto;
+    margin-top: 50px;0
 }
-.bodyb (max-width: 580px;)
-
-.contact-info{
-    margin: ;
+.order-details{
+    width: 90%;
+}
+.about-me-img1{
+    width: 80%;
+}
+.about-me-img2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
 }
 }
-
-@media (max-width:768){
-    .page-content{
-        flex-direction: column;
-       }
-.card .card-body .card-image-top{
-    height: 150px;
-    width: auto
-    margin-left:  20px;
-    margin-right: 20px;
-}
-    .bodyb (max-width: 580px;)
+.card:hover{
+    transform:scale(1.2);
+    transition: all 1s;
 }
