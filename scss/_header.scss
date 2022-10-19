@@ -1,0 +1,25 @@
+nav ul li{
+    list-style-type: none;
+    margin-left: 80px;
+    padding: 25px 30px;
+    float: left;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.nav-background{
+    background: black ;
+    width: 100%;
+    clear: both;
+    content:"";
+    display: table;
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 8px;
+}

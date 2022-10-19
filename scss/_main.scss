@@ -1,0 +1,115 @@
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 250px;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+.product{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.page-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product{
+    margin-left: 20px;
+    padding: 24px 16px ;
+    position: relative;
+}
+.product img{
+    width: 300px;
+}
+.button-cat{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 250px;
+    }       
+    
+    .icon{
+        width: 50px;
+        height: auto;
+        margin-top: 50px;
+        justify-content: left;
+        display: flex;
+    }
+    
+    .map{
+        width: 500px;
+        height: 400px;
+    }
+    .store-photo1{
+        width: 400px;
+        height: auto;
+        float: right;
+        clear: right;
+       margin-top:-700px ;
+       padding: 10px;
+    }
+    .store-photo2{
+        width: 400px;
+        height: auto;
+        float: right;
+        clear: right;
+       margin-top:-400px ;
+       padding: 10px;
+    }
+    .about-me-img1{
+        width: 400px;
+        height: auto;
+        float: left;
+        margin:40px ;
+        border: black;
+        border-width: 20px;
+        
+    }
+    .about-me-text1{
+        margin-top: 50px;
+        
+    }
+    .about-me-text2{
+        margin-left: 50px;
+        margin-top: 130px;
+    }
+    .about-me-img2{
+        width: 500px;
+        height: auto;
+        float: right;
+        margin: 40px;
+    }
+    .form{
+        margin: 50px;
+    }
+    .title{
+        text-decoration: underline;
+    }
+    .card .card-body .card-image-top{
+        height: 10px;
+        width: auto;
+        margin-top: 50px;
+    }
+    .order-details{
+        width: 90%;
+    }
+    .about-me-img1{
+        width: 80%;
+    }
+    .about-me-img2{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    
+    .card:hover{
+        transform:scale(1.2);
+        transition: all 1s;
+    }
