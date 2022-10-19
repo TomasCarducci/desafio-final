@@ -153,24 +153,33 @@ img {
   text-decoration: underline;
 }
 
-.card .card-body .card-image-top {
-  height: 10px;
-  width: auto;
+.about-me-img1 {
+  width: 400px;
+  height: auto;
+  float: left;
+  margin: 40px;
+  border: black;
+  border-width: 20px;
+}
+
+.about-me-text1 {
   margin-top: 50px;
 }
 
-.order-details {
-  width: 90%;
-}
-
-.about-me-img1 {
-  width: 80%;
+.about-me-text2 {
+  margin-left: 50px;
+  margin-top: 130px;
 }
 
 .about-me-img2 {
-  display: flex;
-  justify-content: center;
-  width: 80%;
+  width: 500px;
+  height: auto;
+  float: right;
+  margin: 40px;
+}
+
+.form {
+  margin: 50px;
 }
 
 .card:hover {
@@ -180,6 +189,35 @@ img {
 
 @media (max-width: 576px) {
   .page-content {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .card .card-body .card-image-top {
+    height: 10px;
+    width: auto;
+    margin-top: 50px;
+  }
+  .order-details {
+    width: 90%;
+  }
+  .about-me-img1 {
+    width: 80%;
+  }
+  .about-me-img2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  .map {
+    width: 90%;
+    height: 400px;
+  }
+  .store {
+    display: none;
+  }
+  .contact-info {
     flex-direction: column;
     justify-content: center;
     display: flex;
