@@ -1,3 +1,9 @@
+@import "./lists";
+@import "./variables";
+
+body{
+    background-color:$bg-color-general;
+}
 .banner {
     display: block;
     margin-left: auto;
@@ -123,3 +129,6 @@
         transform:scale(1.2);
         transition: all 1s;
     }
+.card{
+    color: nth($colors,2 );
+}
