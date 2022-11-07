@@ -132,3 +132,8 @@ body{
 .card{
     color: nth($colors,2 );
 }
+.enc{
+    display: flex;
+    justify-content: center;
+    color: nth($colors,1 );
+}
