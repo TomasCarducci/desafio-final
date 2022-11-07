@@ -1,9 +1,7 @@
 @media (max-width:576px){
     .page-content{
         flex-direction: column;
-
-        justify-content: center;
-        display: flex;
+        @include center;
         align-items: center;   
     }
 .card .card-body .card-image-top{
@@ -18,8 +16,7 @@
     width: 80%;
 }
 .about-me-img2{
-    display: flex;
-    justify-content: center;
+    @include center;
     width: 80%;
 }
 .map{

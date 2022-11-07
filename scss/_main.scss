@@ -34,8 +34,7 @@ body{
     width: 300px;
 }
 .button-cat{
-    display: flex;
-    justify-content: center;
+    @include center;
     margin: auto;
     width: 50%;
     margin-top: 250px;
@@ -133,7 +132,6 @@ body{
     color: nth($colors,2 );
 }
 .enc{
-    display: flex;
-    justify-content: center;
+    @include center;
     color: nth($colors,1 );
 }
